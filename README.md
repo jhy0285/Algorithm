@@ -1,6 +1,7 @@
 # 자료구조 & 알고리즘
 
 ## 개념
+* [x] [순열과 조합](https://github.com/jhy0285/Algorithm/blob/main/개념/algorithm_permutation_and_combination.md)
 
 * [x] [스택과 큐](https://github.com/jhy0285/Algorithm/blob/main/개념/algorithm_stack_and_queue.md)
 
