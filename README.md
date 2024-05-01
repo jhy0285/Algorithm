@@ -26,5 +26,5 @@
 
 ## 문제 풀이
 
-* [x] [백준](https://github.com/jhy0285/Algorithm/blob/main/algorithm_cryptography.md)
-* [x] [프로그레머스](https://github.com/jhy0285/Algorithm/blob/main/algorithm_cryptography.md)
+* [x] [백준](https://github.com/jhy0285/Algorithm/blob/main/백준/README.md)
+* [x] [프로그레머스](https://github.com/jhy0285/Algorithm/blob/main/프로그래머스/README.md)
