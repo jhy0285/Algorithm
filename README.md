@@ -1,6 +1,6 @@
 # 자료구조 & 알고리즘
 
-## 목차
+## 개념
 
 * [x] [스택과 큐](https://github.com/jhy0285/Algorithm/blob/main/algorithm_stack_and_queue.md)
 
@@ -24,3 +24,7 @@
 
 * [x] [암호화 알고리즘](https://github.com/jhy0285/Algorithm/blob/main/algorithm_cryptography.md)
 
+## 문제 풀이
+
+* [x] [백준](https://github.com/jhy0285/Algorithm/blob/main/algorithm_cryptography.md)
+* [x] [프로그레머스](https://github.com/jhy0285/Algorithm/blob/main/algorithm_cryptography.md)

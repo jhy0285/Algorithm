@@ -68,13 +68,13 @@ Selection Sort은 배열 중에 하나의 요소를 선택하여 제일 앞으�
 2. 그 값을 맨 앞에 위치한 값과 교체한다
 3. 맨 처음 위치를 뺀 나머지 리스트를 같은 방법으로 교체한다.
 
-<img src="img/algorithm_selection_sort.png">
+<img src="../img/algorithm_selection_sort.png">
 
 ### Insertion Sort
 Insert Sort는 자료 배열의 모든 요소를 앞에서 차례대로 이미 정렬된 배열 부분과 비교하여, 자신의 위치를 찾아 삽입함으로써
 정렬을 완성하는 알고리즘이다.
 
-<img src="img/algorithm_insertion_sort.png">
+<img src="../img/algorithm_insertion_sort.png">
 
 ### Merge Sort
 Merge Sort은 n개의 요소를 가진 리스트를 n개의 부분리스트를 분할 한후, 가까운 요소끼리 비교하여, 병합한다.
@@ -86,7 +86,7 @@ Merge Sort은 n개의 요소를 가진 리스트를 n개의 부분리스트를 �
 2. 부분리스트가 하나만 남을 때까지 반복해서 병합하며 정렬된 부분리스트를 생성한다.
 마지막 나믄 부분리스트가 정렬된 리스트이다.
 
-<img src="img/algorithm_merge_sort.png">
+<img src="../img/algorithm_merge_sort.png">
 
 ### Quick Sort
 1. 리스트 가운데서 하나의 원소를 고른다 이렇게 고른 원소를 피벗이라고 한다.
@@ -98,7 +98,7 @@ Merge Sort은 n개의 요소를 가진 리스트를 n개의 부분리스트를 �
 
 3. 분할된 두개의 작은 리스트에 대해 재귀적으로 이 과정을 반복한다. 재귀는 리스트의 크기가 0이나 1이 될 때까지 반복한다.
 
-<img src="img/algorithm_quick_sort.png">
+<img src="../img/algorithm_quick_sort.png">
 
 ### 알고리즘의 시간 복잡도
 

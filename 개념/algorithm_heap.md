@@ -22,7 +22,7 @@
 배열과 연결리스트는 선형 구조의 자료구조이기에 삽입 또는 삭제 연산을 위한 시간복잡도는 `O(N)`이지만 힙은 완전 이진 트리 구조이므로 힙 트리의 높이는 `log(N+1)`이며, 힙의 시간복잡도는 O(logN)이다
 
 <div align='center'>
-    <img src="img/algorithm_priority_queue_heap.png" width="540px"><br>
+    <img src="../img/algorithm_priority_queue_heap.png" width="540px"><br>
 </div>
 
 ## Heap(힙)
@@ -42,7 +42,7 @@
 **key(부모노드) >= key(자식노드)**
 
 <div align='center'>
-    <img src="img/algorithm_max_heap.png" width="540px"><br>
+    <img src="../img/algorithm_max_heap.png" width="540px"><br>
 </div>
 
 2. 최소 힙(min heap)
@@ -51,7 +51,7 @@
 **key(부모노드) <= key(자식노드)**
 
 <div align='center'>
-    <img src="img/algorithm_min_heap.png" width="540px"><br>
+    <img src="../img/algorithm_min_heap.png" width="540px"><br>
 </div>
 
 ### 힙의 활용 예시
@@ -68,7 +68,7 @@
 - 특정 위치의 노드 번호는 새로운 노드가 추가되어도 변하지 않는다(ex. 루트 노드(1)의 오른쪽 노드 번호는 항상 3)
 
 <div align='center'>
-    <img src="img/algorithm_node_relation.png" width="540px"><br>
+    <img src="../img/algorithm_node_relation.png" width="540px"><br>
 </div>
 
 >왼쪽 자식 index = (부모 index) * 2  
@@ -93,25 +93,25 @@
 - 가장 말단 노드에 새로운 요소를 삽입
 
 <div align='center'>
-    <img src="img/algorithm_heap_insert_1.png" width="540px"><br>
+    <img src="../img/algorithm_heap_insert_1.png" width="540px"><br>
 </div>
 
 - 부모 노드와 비교하여 값이 자식 노드가 더 크다면 교환하고 작다면 해당 부분에서 정지한다
 
 <div align='center'>
-    <img src="img/algorithm_heap_insert_2.png" width="540px"><br>
+    <img src="../img/algorithm_heap_insert_2.png" width="540px"><br>
 </div>
 
 - 다시 자신의 부모 노드와 비교를 수행, 크다면 교환, 작다면 해당 부분에서 정지
 
 <div align='center'>
-    <img src="img/algorithm_heap_insert_3.png" width="540px"><br>
+    <img src="../img/algorithm_heap_insert_3.png" width="540px"><br>
 </div>
 
 - 교환한 노드에서 다시 큰 값을 가진 자식과 위치를 교환하며 최대 힙 구조가 유지되면서 삽입과정 완료
 
 <div align='center'>
-    <img src="img/algorithm_heap_insert_4.png" width="540px"><br>
+    <img src="../img/algorithm_heap_insert_4.png" width="540px"><br>
 </div>
 
 코드를 통하여 위 예제를 살펴보자
@@ -142,25 +142,25 @@ void insert_max_heap(int x) {
 - 루트 노드를 삭제하고 마지막 원소를 루트로 이동
 
 <div align='center'>
-    <img src="img/algorithm_heap_remove_1.png" width="540px"><br>
+    <img src="../img/algorithm_heap_remove_1.png" width="540px"><br>
 </div>
 
 - 큰 값을 가진 자식과 위치를 교환
 
 <div align='center'>
-    <img src="img/algorithm_heap_remove_2.png" width="540px"><br>
+    <img src="../img/algorithm_heap_remove_2.png" width="540px"><br>
 </div>
 
 - 교환한 노드에서 다시 큰 값을 가진 자식과 위치 교환
 
 <div align='center'>
-    <img src="img/algorithm_heap_remove_3.png" width="540px"><br>
+    <img src="../img/algorithm_heap_remove_3.png" width="540px"><br>
 </div>
 
 - 교환한 노드에서 다시 큰 값을 가진 자식과 위치를 교환하며 힙 구조 완성
 
 <div align='center'>
-    <img src="img/algorithm_heap_remove_4.png" width="540px"><br>
+    <img src="../img/algorithm_heap_remove_4.png" width="540px"><br>
 </div>
 
 코드를 통하여 위 예제를 살펴보자
@@ -205,19 +205,19 @@ heapify의 경우 기본적으로 힙을 만족하는 경우에서 삽입 또는
 아래 그림을 통한 예시로 자세히 살펴보자
 
 <div align='center'>
-    <img src="img/algorithm_build_heap_1.png" width="540px"><br>
+    <img src="../img/algorithm_build_heap_1.png" width="540px"><br>
 </div>
 <div align='center'>
-    <img src="img/algorithm_build_heap_2.png" width="540px"><br>
+    <img src="../img/algorithm_build_heap_2.png" width="540px"><br>
 </div>
 <div align='center'>
-    <img src="img/algorithm_build_heap_3.png" width="540px"><br>
+    <img src="../img/algorithm_build_heap_3.png" width="540px"><br>
 </div>
 <div align='center'>
-    <img src="img/algorithm_build_heap_4.png" width="540px"><br>
+    <img src="../img/algorithm_build_heap_4.png" width="540px"><br>
 </div>
 <div align='center'>
-    <img src="img/algorithm_build_heap_5.png" width="540px"><br>
+    <img src="../img/algorithm_build_heap_5.png" width="540px"><br>
 </div>
 
 ---

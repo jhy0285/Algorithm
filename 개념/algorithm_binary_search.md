@@ -18,7 +18,7 @@
 - 아래의 사진에서와 같이 중간점이 두 개인 경우, 소수점 이하를 제거한 index를 중간점으로 지정한다
 
 <div align='center'>
-    <img src="img/binary_search_step1.png" width="540px"><br>
+    <img src="../img/binary_search_step1.png" width="540px"><br>
 </div>
 
 [Step2] 시작점: 0, 끝점: 3, 중간점: 1 (소수점 이하 제거)
@@ -26,7 +26,7 @@
 - 끝점을 처음 지정한 중간점인 8 왼쪽으로 지정한다
 
 <div align='center'>
-    <img src="img/binary_search_step1.png" width="540px"><br>
+    <img src="../img/binary_search_step1.png" width="540px"><br>
 </div>
 
 [Step3] 시작점:2, 끝점: 3, 중간점: 2 (소수점 이하 제거)
@@ -35,7 +35,7 @@
 - 중간점 값은 찾고자 했던 값 4와 동일하기에 탐색을 마친다
 
 <div align='center'>
-    <img src="img/binary_search_step3.png" width="540px"><br>
+    <img src="../img/binary_search_step3.png" width="540px"><br>
 </div>
 
 이진 탐색의 시간 복잡도
@@ -139,14 +139,14 @@ int binarySearch2(int key, int low, int high) {
 - 필요한 떡의 크기보다 잘린 떡의 길이가 더 크므로 시작점을 처음 지정한 중간점 오른쪽으로 옮긴다
 
 <div align='center'>
-    <img src="img/binary_search_example.png" width="540px"><br>
+    <img src="../img/binary_search_example.png" width="540px"><br>
 </div>
 
 [Step2] 시작점: 10, 끝점: 19, 중간점: 14
 - 마찬가지로, 손님이 요구한 떡의 길이보다 길기에 시작점을 중간점 오른쪽으로 옮긴다
 
 <div align='center'>
-    <img src="img/binary_search_example2.png" width="540px"><br>
+    <img src="../img/binary_search_example2.png" width="540px"><br>
 </div>
 
 [Step3] 시작점: 15, 끝점: 19, 중간점: 17
@@ -154,7 +154,7 @@ int binarySearch2(int key, int low, int high) {
 - 잘린 떡의 길이를 늘리기 위하여 끝점을 지정한 중간점(17) 왼쪽으로 옮긴다
 
 <div align='center'>
-    <img src="img/binary_search_example3.png" width="540px"><br>
+    <img src="../img/binary_search_example3.png" width="540px"><br>
 </div>
 
 [Step4] 시작점: 15, 끝점: 16, 중간점: 15
@@ -162,7 +162,7 @@ int binarySearch2(int key, int low, int high) {
 - 이진 탐색 수행을 중단한다
 
 <div align='center'>
-    <img src="img/binary_search_example4.png" width="540px"><br>
+    <img src="../img/binary_search_example4.png" width="540px"><br>
 </div>
 
 ```

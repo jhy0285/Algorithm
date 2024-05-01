@@ -70,7 +70,7 @@ ex) aWfwlknr!
 ## 2. 암호 시스템
 ### 암호화/복호화 개념도
 <div align='center'>
-    <img src="img/algorithm_cryptography_02.png" width="500px"/>
+    <img src="../img/algorithm_cryptography_02.png" width="500px"/>
 </div>
 침해자는 암호키가 없기 때문에 암호문 파악 불가
 
@@ -87,20 +87,20 @@ ex) aWfwlknr!
 
 ## 3. 암호 알고리즘 분류
 <div align='center'>
-    <img src="img/algorithm_cryptography_01.png" width="700px"/>
+    <img src="../img/algorithm_cryptography_01.png" width="700px"/>
 </div>
 
 ## 1) 양방향 방식
 > 암호화와 복호화가 양방향으로 이루어지는 방식
 
 <div align='center'>
-    <img src="img/algorithm_cryptography_09.png" width="650px"/>
+    <img src="../img/algorithm_cryptography_09.png" width="650px"/>
 </div>
 
 ### [ 대칭키 방식(Symmetric-key Cryptography) ]
 > 암호화를 할 때와 복호화를 할 때 같은 암호키를 사용하는 알고리즘
 <div align='center'>
-    <img src="img/algorithm_cryptography_03.png" width="550px"/>
+    <img src="../img/algorithm_cryptography_03.png" width="550px"/>
 </div>
 
 - **암호키 = 복호키**
@@ -133,12 +133,12 @@ ex) aWfwlknr!
 |단위|블록 단위|비트 단위|
 
 <div align='center'>
-    <img src="img/algorithm_cryptography_05.png" width="500px"/>
+    <img src="../img/algorithm_cryptography_05.png" width="500px"/>
     <p>블록 암호</p>
 </div>
 
 <div align='center'>
-    <img src="img/algorithm_cryptography_06.png" width="500px"/>
+    <img src="../img/algorithm_cryptography_06.png" width="500px"/>
     <p>스트림 암호</p>
 </div>
 
@@ -152,7 +152,7 @@ ex) aWfwlknr!
 ### [ 비대칭키 방식(공개키 방식) ]
 > 메시지 암호화 하는 키와 복호화 하는 키가 다른 알고리즘 (공개키와 암호화키)
 <div align='center'>
-    <img src="img/algorithm_cryptography_04.png" width="550px"/>
+    <img src="../img/algorithm_cryptography_04.png" width="550px"/>
 </div>
 
 - **암호키 ≠ 복호키**
@@ -212,7 +212,7 @@ ex) aWfwlknr!
 
 #### Hash 알고리즘
 <div align='center'>
-    <img src="img/algorithm_cryptography_10.png" width="550px"/>
+    <img src="../img/algorithm_cryptography_10.png" width="550px"/>
 </div>
 
 - `MD5`: MD4 개선한 암호화 알고리즘, 파일의 무결성 검사에 사용
@@ -231,7 +231,7 @@ ex) aWfwlknr!
 > 변경메시지를 암호학적 해쉬 함수를 통해 해쉬값을 만든 것
 
 <div align='center'>
-    <img src="img/algorithm_cryptography_07.png" width="800px"/>
+    <img src="../img/algorithm_cryptography_07.png" width="800px"/>
 </div>
 
 `송신자` : 원본의 메시지는 그대로 보내고 해쉬값`MDC`를 만들어 안전한 채널에 보낸다.
@@ -249,7 +249,7 @@ ex) aWfwlknr!
 MAC 방식은 양방향 암호화 알고리즘보다 빠르다는 장점을 가지고 있지만, 기밀성을 제공하지 않기 때문에 보안에 취약하다는 단점이 있다.
 
 <div align='center'>
-    <img src="img/algorithm_cryptography_08.png" width="800px"/>
+    <img src="../img/algorithm_cryptography_08.png" width="800px"/>
 </div>
 
 `송신자` : 수신자와 미리 공유된 키를 가지고 메시지 해쉬값 `MAC`를 만들고 메시지와 함께 보냄

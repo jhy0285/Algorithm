@@ -15,7 +15,7 @@
 예시) 백준 11732: 집합
     
 <div align='center'>
-    <img src="img/bitMasking.png" width="400px">
+    <img src="../img/bitMasking.png" width="400px">
 </div>    
     - 재귀함수
 비트마스크와 마찬가지로 주로 각 원소가 포함되거나, 포함되지 않는 두 가지 선택을 가질 때 이용.
@@ -23,13 +23,13 @@
 예시) 피보나치 수열
     
 <div align='center'>
-    <img src="img/recursive.png" width="400px">
+    <img src="../img/recursive.png" width="400px">
 </div>   
     
 - 순열
 서로 다른 N기를 일렬로 나열하는 경우의 수. 시간 복잡도 O(N!)이므로 코딩 테스트 등의 경우 다른 알고리즘을 고려해야 한다.
 <div align='center'>
-    <img src="img/permutation.png" width="400px">
+    <img src="../img/permutation.png" width="400px">
 </div> 
     
 - BFS/DFS
@@ -37,17 +37,17 @@
     - DFS
     깊이 우선 탐색. stack 또는 재귀함수를 이용하여 구현. 최대한 깊숙이 들어가서 확인한 뒤 다시 돌아가 다른 루트를 탐색.
 <div align='center'>
-    <img src="img/dfs.png" width="400px">
+    <img src="../img/dfs.png" width="400px">
 </div>
 <br>
 <div align='center'>
-    <img src="img/dfsResult.png" width="400px">
+    <img src="../img/dfsResult.png" width="400px">
 </div>   
     - BFS
     너비 우선 탐색. 그래프에서 가까운 노드부터 우선적으로 탐색하는 알고리즘. queue 자료구조 이용.
 <div align='center'>
-    <img src="img/bfs.png" width="400px">
+    <img src="../img/bfs.png" width="400px">
 </div>  
 <div align='center'>
-    <img src="img/bfsResult.png" width="400px">
+    <img src="../img/bfsResult.png" width="400px">
 </div> 

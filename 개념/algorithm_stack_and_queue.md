@@ -2,7 +2,7 @@
 
 ## 📚 Stack
 
-<img src="img/stack_and_queue_01.png" alt="stack">
+<img src="../img/stack_and_queue_01.png" alt="stack">
 
 > 프링x스를 예시로 들어보자.  
 > 통 안에 감자칩이 순서대로 차곡차곡 쌓여있다. 프링x스를 만들때는 통 가장 아래서부터 감자칩을 하나씩 차곡차곡 담는다.
@@ -124,7 +124,7 @@ public class EmptyException extends RuntimeException {
 
 ## 🍡 Queue
 
-<img src="img/stack_and_queue_02.png" alt="queue">
+<img src="../img/stack_and_queue_02.png" alt="queue">
 
 > 놀이공원이나 매표소 등 줄을 서서 차례로 업무를 처리하거나 웹 브라우저의 뒤로가기 기능을 수행할 때 등
 

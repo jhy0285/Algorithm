@@ -13,11 +13,11 @@
 이 말은 모든 노드를 한 번씩 다 확인해줘야 한다는 의미이다.
 
 <div align='center'>
-    <img src="img/bst.png" width="340px"><br>
+    <img src="../img/bst.png" width="340px"><br>
 </div>
 
 <div align='center'>
-    <img src="img/bst2.png" width="340px"><br>
+    <img src="../img/bst2.png" width="340px"><br>
 </div>
 
 이러한 단점을 개선한 **균형 트리**인 **Red-Black 트리**에 대해서 알아보자.
@@ -34,7 +34,7 @@
 - 모든 노드는 **red** 혹은 **black**
 
 <div align='center'>
-    <img src="img/red_black_tree.png" width="440px">
+    <img src="../img/red_black_tree.png" width="440px">
 </div>
 
 <br>
@@ -69,7 +69,7 @@
 위의 그림을 다시 가져와 살펴보자.
 
 <div align='center'>
-    <img src="img/red_black_tree.png" width="440px">
+    <img src="../img/red_black_tree.png" width="440px">
 </div>
 
 - 노드 8의 black height : 2
@@ -119,14 +119,14 @@ BST와 동일하게 삽입하고 트리 속성을 만족하도록 조정한다.
     - 루트 노드는 **black**
 
 <div align='center'>
-    <img src="img/rbt_ex1.png" width="300px">
+    <img src="../img/rbt_ex1.png" width="300px">
 </div>
 
 - 루트 노드를 **red**에서 **black**으로 바꿔준다.
     - <u>모든 속성 만족</u>
 
 <div align='center'>
-    <img src="img/rbt_ex2.png" width="300px">
+    <img src="../img/rbt_ex2.png" width="300px">
 </div>
 
 <br>
@@ -137,7 +137,7 @@ BST와 동일하게 삽입하고 트리 속성을 만족하도록 조정한다.
     - <u>모든 속성 만족</u>
 
 <div align='center'>
-    <img src="img/rbt_ex3.png" width="300px">
+    <img src="../img/rbt_ex3.png" width="300px">
 </div>
 
 <br>
@@ -159,7 +159,7 @@ BST와 동일하게 삽입하고 트리 속성을 만족하도록 조정한다.
     - **red**의 자녀들은 반드시 **black**이어야 한다. (즉, **red**가 연속적으로 존재할 수 없다.)
 
 <div align='center'>
-    <img src="img/rbt_ex4.png" width="280px">
+    <img src="../img/rbt_ex4.png" width="280px">
 </div>
 
 <br>
@@ -175,7 +175,7 @@ BST와 동일하게 삽입하고 트리 속성을 만족하도록 조정한다.
 <br>
 
 <div align='center'>
-    <img src="img/rbt_ex5.png" width="280px">
+    <img src="../img/rbt_ex5.png" width="280px">
 </div>
 
 - `#4 속성` 위반을 해결하기 위해 **red** 하나를 옮겨야 함.
@@ -195,7 +195,7 @@ BST와 동일하게 삽입하고 트리 속성을 만족하도록 조정한다.
     - **red**의 자녀들은 반드시 **black**이어야 한다. (즉, **red**가 연속적으로 존재할 수 없다.)
 
 <div align='center'>
-    <img src="img/rbt_ex6.png" width="280px">
+    <img src="../img/rbt_ex6.png" width="280px">
 </div>
 
 <br>
@@ -207,11 +207,11 @@ BST와 동일하게 삽입하고 트리 속성을 만족하도록 조정한다.
     3. <u>모든 속성 만족</u>
 
 <div align='center'>
-    <img src="img/rbt_ex7.png" width="280px">
+    <img src="../img/rbt_ex7.png" width="280px">
 </div>
 
 <div align='center'>
-    <img src="img/rbt_ex8.png" width="300px">
+    <img src="../img/rbt_ex8.png" width="300px">
 </div>
 
 <br>
@@ -225,7 +225,7 @@ BST와 동일하게 삽입하고 트리 속성을 만족하도록 조정한다.
     - **red**의 자녀들은 반드시 **black**이어야 한다. (즉, **red**가 연속적으로 존재할 수 없다.)
 
 <div align='center'>
-    <img src="img/rbt_ex9.png" width="300px">
+    <img src="../img/rbt_ex9.png" width="300px">
 </div>
 
 <br>
@@ -238,7 +238,7 @@ BST와 동일하게 삽입하고 트리 속성을 만족하도록 조정한다.
     - 루트 노드는 **black**
 
 <div align='center'>
-    <img src="img/rbt_ex10.png" width="300px">
+    <img src="../img/rbt_ex10.png" width="300px">
 </div>
 
 <br>
@@ -247,7 +247,7 @@ BST와 동일하게 삽입하고 트리 속성을 만족하도록 조정한다.
     - <u>모든 속성 만족</u>
 
 <div align='center'>
-    <img src="img/rbt_ex11.png" width="300px">
+    <img src="../img/rbt_ex11.png" width="300px">
 </div>
 
 <br>
@@ -261,7 +261,7 @@ BST와 동일하게 삽입하고 트리 속성을 만족하도록 조정한다.
 3. insert(25)
 
 <div align='center'>
-    <img src="img/rbt_ex12.png" width="350px">
+    <img src="../img/rbt_ex12.png" width="350px">
 </div>
 
 <br>
@@ -299,7 +299,7 @@ BST와 동일하게 삽입하고 트리 속성을 만족하도록 조정한다.
 > 삭제하려는 노드의 자녀가 없거나 하나일 때
 
 <div align='center'>
-    <img src="img/rbt_ex13.png" width="350px">
+    <img src="../img/rbt_ex13.png" width="350px">
 </div>
 
 <br>
@@ -370,7 +370,7 @@ BST와 동일하게 삽입하고 트리 속성을 만족하도록 조정한다.
 `#5` : 모든 경로의 **black**가 같지 않다. 50에서 왼쪽을 타고 가면 **black**이 하나이고, 오른쪽으로 가면 2개이다. (nil노드 포함)
 
 <div align='center'>
-    <img src="img/rbt_ex14.png" width="350px">
+    <img src="../img/rbt_ex14.png" width="350px">
 </div>
 
 <br>
@@ -380,7 +380,7 @@ BST와 동일하게 삽입하고 트리 속성을 만족하도록 조정한다.
 `#2` : 35가 삭제되고 50이 루트노드가 된다. 그러면 루트 노드가 **red**로 속성을 위반한다.
 
 <div align='center'>
-    <img src="img/rbt_ex15.png" width="300px">
+    <img src="../img/rbt_ex15.png" width="300px">
 </div>
 
 <br>
@@ -410,7 +410,7 @@ BST와 동일하게 삽입하고 트리 속성을 만족하도록 조정한다.
 1\) 10 삭제, 삭제되는 색은 **black**
 
 <div align='center'>
-    <img src="img/rbt_ex16.png" width="350px">
+    <img src="../img/rbt_ex16.png" width="350px">
 </div>
 
 <br>
@@ -422,7 +422,7 @@ BST와 동일하게 삽입하고 트리 속성을 만족하도록 조정한다.
 4\) `#5 속성` 만족
 
 <div align='center'>
-    <img src="img/rbt_ex17.png" width="350px">
+    <img src="../img/rbt_ex17.png" width="350px">
 </div>
 
 > * `doubly black` : extra black이 부여된 black 노드
@@ -448,10 +448,10 @@ BST와 동일하게 삽입하고 트리 속성을 만족하도록 조정한다.
 👉 오른쪽 형제는 부모의 색으로, 오른쪽 형제의 오른쪽 자녀는 **black**으로, 부모는 **black**으로 바꾼 후에 부모를 기준으로 왼쪽으로 회전하면 해결
 
 <div align='center'>
-    <img src="img/rbt_ex18.png" width="350px">
+    <img src="../img/rbt_ex18.png" width="350px">
 </div>
 <div align='center'>
-    <img src="img/rbt_ex19.png" width="350px">
+    <img src="../img/rbt_ex19.png" width="350px">
 </div>
 
 <br>
@@ -465,10 +465,10 @@ BST와 동일하게 삽입하고 트리 속성을 만족하도록 조정한다.
 👉 E 위치에 **red**가 오도록 만들기 위해 C와 D의 색을 바꾼 후에 D를 기준으로 오른쪽으로 회전하면 된다.
 
 <div align='center'>
-    <img src="img/rbt_ex20.png" width="350px">
+    <img src="../img/rbt_ex20.png" width="350px">
 </div>
 <div align='center'>
-    <img src="img/rbt_ex21.png" width="350px">
+    <img src="../img/rbt_ex21.png" width="350px">
 </div>
 
 <br>
@@ -480,7 +480,7 @@ BST와 동일하게 삽입하고 트리 속성을 만족하도록 조정한다.
 👉  **doubly black**과 그 형제의 **black**을 모아서 부모에게 전달해서 부모가 **extra black**을 해결하도록 위임한다.
 
 <div align='center'>
-    <img src="img/rbt_ex22.png" width="350px">
+    <img src="../img/rbt_ex22.png" width="350px">
 </div>
 
 <br>
@@ -492,17 +492,17 @@ BST와 동일하게 삽입하고 트리 속성을 만족하도록 조정한다.
 👉  **doubly black**의 형제를 **black**으로 만든 후 case 2, 3, 4 중 하나로 해결
 
 <div align='center'>
-    <img src="img/rbt_ex23.png" width="350px">
+    <img src="../img/rbt_ex23.png" width="350px">
 </div>
 <br>
 
 D를 black으로 만들기 위해서 B와 D 색상을 바꿔준다. 그리고 B를 기준으로 왼쪽으로 회전한다.
 
 <div align='center'>
-    <img src="img/rbt_ex24.png" width="350px">
+    <img src="../img/rbt_ex24.png" width="350px">
 </div>
 <div align='center'>
-    <img src="img/rbt_ex25.png" width="350px">
+    <img src="../img/rbt_ex25.png" width="350px">
 </div>
 
 이 상태에서 다른 case 중에서 해결
