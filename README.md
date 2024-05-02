@@ -26,6 +26,8 @@
 
 * [x] [암호화 알고리즘](https://github.com/jhy0285/Algorithm/blob/main/개념/algorithm_cryptography.md)
 
+* [x] [예상 질문](https://github.com/jhy0285/Algorithm/blob/main/개념/algorithm_expected_question.md)
+
 ## 문제 풀이
 
 * [x] [백준](https://github.com/jhy0285/Algorithm/blob/main/백준/README.md)
