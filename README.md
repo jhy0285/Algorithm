@@ -1,7 +1,7 @@
 # 자료구조 & 알고리즘
 
 ## 개념
-> 개념파트는 [2023-CS-Study](https://github.com/devSquad-study/2023-CS-Study) 라는 퍼블릭레포를 바탕으로 제가 공부한 알고리즘 개념들을 추가하였습니다
+
 * [x] [순열과 조합](https://github.com/jhy0285/Algorithm/blob/main/개념/algorithm_permutation_and_combination.md)
 
 * [x] [스택과 큐](https://github.com/jhy0285/Algorithm/blob/main/개념/algorithm_stack_and_queue.md)
